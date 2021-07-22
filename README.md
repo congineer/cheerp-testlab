@@ -5,7 +5,6 @@
 
 <div align="center">
   <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
-  <!-- Comment out this L9 </div> and uncomment the below L27 </div> if you want to center all badges -->
 </div>
 
 ---
@@ -18,8 +17,6 @@
 [![Prerequisite mandatory: Node.js](https://img.shields.io/badge/prerequisite:%20mandatory-node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=blue)](https://nodejs.org/en/download/package-manager/)
 [![Prerequisite optional: Cheerp compiler](https://img.shields.io/badge/prerequisite:%20optional-cheerp-4fdbd1?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://leaningtech.com/cheerp/)
 
-
-
 [![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/master)
 [![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
 
@@ -28,8 +25,6 @@
 &nbsp;
 
 ---
-<!-- Uncomment the below L27 </div> instead of the above L9 </div> if you want to center all badges -->
-<!-- </div> -->
 
 # CHEERP WEBASSEMBLY TESTING APP
 
