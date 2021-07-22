@@ -4,13 +4,40 @@
 <!-- ![Cheerp Testlab logo](./cheerp_testlab_logo.png "Cheerp Testlab") -->
 
 <div align="center">
-  <!-- <a href="https://github.com/congineer/cheerp-testlab" target="_blank"> -->
-  <a href="https://github.com/congineer/cheerp-testlab" onclick="return ! window.open(this.href);">
+  <a href="https://github.com/congineer/cheerp-testlab">
     <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
+  </a><br><br>
+  <a href="https://www.youtube.com/channel/UCT4TzDSHnq2e0p5YlF37NeQ">
+    <img alt="YouTube channel: congineer" src="https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000">
+  </a><span>&nbsp;</span>
+  <a href="https://opensource.org/licenses/mit">
+    <img alt="Code license: MIT" src="https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge&logo=Open+Source+Initiative&logoColor=white">
+  </a><span>&nbsp;</span>
+  <a href="https://creativecommons.org/licenses/by/4.0/">
+    <img alt="Assets license: CC-BY" src="https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logoColor=white">
   </a>
+  <br><p></p>
+  <a href="https://nodejs.org/en/download/package-manager/">
+    <img alt="Prerequisite mandatory: Node.js" src="https://img.shields.io/badge/prerequisite:%20mandatory-node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=blue">
+  </a><span>&nbsp;</span>
+  <a href="https://leaningtech.com/cheerp/">
+    <img alt="Prerequisite optional: Cheerp compiler" src="https://img.shields.io/badge/prerequisite:%20optional-cheerp%20compiler-4fdbd1?style=for-the-badge&logo=c%2B%2B&logoColor=white">
+  </a>
+  <br><p></p>
+  <a href="https://github.com/congineer/cheerp-testlab/tree/master">
+    <img alt="Git branch stability: master" src="https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logoColor=f5f5f5">
+  </a><span>&nbsp;</span>
+  <a href="https://github.com/congineer/cheerp-testlab/tree/jsonparse">
+    <img alt="Git branch stability: jsonparse" src="https://img.shields.io/badge/branch%20stability:%20jsonparse-unstable-ff6700?style=for-the-badge&logo=github&logoColor=f5f5f5">
+  </a>
+  <br><p></p>
+  <a href="https://alm.congineer.com/plugins/git/testlab/cheerp?a=tree&hb=runxgems">
+    <img alt="Git branch stability: runxgems" src="https://img.shields.io/badge/branch%20stability:%20runxgems-stable-greene?style=for-the-badge&logo=git&logoColor=f34f28">
+  </a><span>&nbsp;</span>
+  <br><p></p>
 </div>
 
----
+<!-- ---
 &nbsp;
 
 [![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)](https://www.youtube.com/channel/UCT4TzDSHnq2e0p5YlF37NeQ)
@@ -18,14 +45,14 @@
 [![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
 
 [![Prerequisite mandatory: Node.js](https://img.shields.io/badge/prerequisite:%20mandatory-node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=blue)](https://nodejs.org/en/download/package-manager/)
-[![Prerequisite optional: Cheerp compiler](https://img.shields.io/badge/prerequisite:%20optional-cheerp-4fdbd1?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://leaningtech.com/cheerp/)
+[![Prerequisite optional: Cheerp compiler](https://img.shields.io/badge/prerequisite:%20optional-cheerp%20compiler-4fdbd1?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://leaningtech.com/cheerp/)
 
 [![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/master)
-[![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
+[![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-unstable-ff6700?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
 
 [![Git branch stability: runxgems](https://img.shields.io/badge/branch%20stability:%20runxgems-stable-greene?style=for-the-badge&logo=git&logoColor=f34f28)](https://alm.congineer.com/plugins/git/testlab/cheerp?a=tree&hb=runxgems)
 
-&nbsp;
+&nbsp;-->
 
 ---
 
