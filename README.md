@@ -7,7 +7,7 @@
   <a href="https://github.com/congineer/cheerp-testlab">
     <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   </a>
-  <hr><p></p>
+  <p></p>
   <a href="https://www.youtube.com/channel/UCT4TzDSHnq2e0p5YlF37NeQ">
     <img alt="YouTube channel: congineer" src="https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000">
   </a><span>&nbsp;</span>
@@ -47,14 +47,18 @@ This is a lightweight [Snowpack](https://www.snowpack.dev/) application for rapi
 
 * The nlohmann/json.hpp header, written in vanilla C++11 and tested on dozens of C++ compilers on linux, MacOS and Windows, is by far the most popular open-source code enabling the parsing and fine-grained access to JSON objects at various levels in C++ programs.
 
-### License
+---
 
-* MIT license
-* See LICENSE file
+## Licensing
 
-___
+* Code (scripts and compiled code) under [MIT](LICENSE) license.
+* Cheerp brand assets (icons, logos) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by Leaning Technologies Ltd.
+* Brand assets (icons, logos) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
+* Media assets (video, audio, graphics, animations) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
 
-### How to download and run the test app
+---
+
+## How to download and run the test app
 
 Clone the specific branch from the git repository (suppose in **git/testlab**) into your home directory:
 
@@ -82,7 +86,7 @@ compiler_bin=/opt/cheerp/bin/clang++
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ~~~
 
-___
+---
 
 ### How to run the test app
 
@@ -102,7 +106,7 @@ The test app will be loaded and then will open the app page in your default web 
 
 __NOTE:__ Upon any saved change in JavaScript code, the running web app will update automatically and will reload the browser page to reflect the changes.
 
-___
+---
 
 To re-compile the C++ test file with Cheerp, open the **2nd terminal** window, navigate to the test app folder
 
