@@ -6,27 +6,30 @@
 <div align="center">
   <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   <!-- Comment out this L9 </div> and uncomment the below L27 </div> if you want to center all badges -->
-<!-- </div> -->
+</div>
 
 ---
 &nbsp;
 
 [![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)]()
 [![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge)](https://opensource.org/licenses/mit)
-[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logocolor=ef9421)](https://creativecommons.org/licenses/by/4.0/)
+[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logoColor=ef9421)](https://creativecommons.org/licenses/by/4.0/)
+
+[![Prerequisite mandatory: Node.js](https://img.shields.io/badge/prerequisite:%20mandatory-node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=blue)](https://nodejs.org/en/download/package-manager/)
+[![Prerequisite optional: Cheerp compiler](https://img.shields.io/badge/prerequisite:%20optional-cheerp-4fdbd1?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://leaningtech.com/cheerp/)
 
 
 
-[![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/master)
-[![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
+[![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/master)
+[![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logoColor=f5f5f5)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
 
-[![Git branch stability: runxgems](https://img.shields.io/badge/branch%20stability:%20runxgems-stable-greene?style=for-the-badge&logo=git&logocolor=f34f28)](https://alm.congineer.com/plugins/git/testlab/cheerp?a=tree&hb=runxgems)
+[![Git branch stability: runxgems](https://img.shields.io/badge/branch%20stability:%20runxgems-stable-greene?style=for-the-badge&logo=git&logoColor=f34f28)](https://alm.congineer.com/plugins/git/testlab/cheerp?a=tree&hb=runxgems)
 
 &nbsp;
 
 ---
 <!-- Uncomment the below L27 </div> instead of the above L9 </div> if you want to center all badges -->
-</div>
+<!-- </div> -->
 
 # CHEERP WEBASSEMBLY TESTING APP
 
