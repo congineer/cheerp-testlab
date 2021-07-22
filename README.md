@@ -1,6 +1,13 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD033 MD041 -->
 
-![Cheerp Testlab logo](https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png "Cheerp Testlab")
+<!-- HINT:  loading logo from local file is for debugging puroses only -->
+<!-- ![Cheerp Testlab logo](./cheerp_testlab_logo.png "Cheerp Testlab") -->
+
+<!-- HINT: 1) align="center" for text and badge nodes 2) style="margin: 0 auto;" centers the logo image -->
+<div align="center" style="max-width: 100%; margin: 0 auto;">
+  <img src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png"/>
+  <!-- Comment out this L9 </div> and uncomment the below L27 </div> if you want to center all badges -->
+</div>
 
 ---
 &nbsp;
@@ -17,6 +24,8 @@
 &nbsp;
 
 ---
+<!-- Uncomment the below L27 </div> instead of the above L9 </div> if you want to center all badges -->
+<!-- </div> -->
 
 # CHEERP WEBASSEMBLY TESTING APP
 
