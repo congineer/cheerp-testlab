@@ -1,3 +1,21 @@
+![alt text](cheerp_testlab_logo.png "Cheerp Testlab")
+
+---
+&nbsp;
+
+![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-FF0000?style=for-the-badge&logo=youtube&logoColor=FF0000)
+[![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge)](https://opensource.org/licenses/mit)
+[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logocolor=EF9421)](https://creativecommons.org/licenses/by/4.0/)
+
+[![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/master)
+[![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
+
+[![Git branch stability: runxgems](https://img.shields.io/badge/branch%20stability:%20runxgems-stable-greene?style=for-the-badge&logo=git&logocolor=f34f28)](https://alm.congineer.com/plugins/git/testlab/cheerp?a=tree&hb=runxgems)
+
+&nbsp;
+
+---
+
 # CHEERP WEBASSEMBLY TESTING APP
 
 This is a lightweight [Snowpack](https://www.snowpack.dev/) application for rapid testing (with auto-reload on code change) of the [Cheerp](https://leaningtech.com/cheerp/) C/C++ to WebAssembly compiler with C++ code examples.
@@ -6,14 +24,18 @@ This is a lightweight [Snowpack](https://www.snowpack.dev/) application for rapi
 
 * There are many C++ applications that analyze or process data. Porting such applications to WebAssembly allows running them on web browser clients and thus eventually reach the goals of massively scalable architecture and low-cost computing.
 
-### License
+---
 
-* MIT license
-* See LICENSE file
+## Licensing
 
-___
+* Code (scripts and compiled code) under [MIT](LICENSE) license.
+* Cheerp brand assets (icon, logomark and logotype) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by Leaning Technologies Ltd.
+* Brand assets (icons, logomark and logotype) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
+* Media assets (video, audio, graphics, animations) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
 
-### How to download and run the test app
+---
+
+## How to download and run the test app
 
 Clone the git repository (suppose in **git/testlab**) into your home directory:
 
@@ -41,7 +63,7 @@ compiler_bin=/opt/cheerp/bin/clang++
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ~~~
 
-___
+---
 
 ### To run the test app
 
@@ -61,7 +83,7 @@ The test app will be loaded and then will open the app page in your default web 
 
 __NOTE:__ Upon any saved change in JavaScript code, the running web app will update automatically and will reload the browser page to reflect the changes.
 
-___
+---
 
 To re-compile the C++ test file with Cheerp, open the **2nd terminal** window, navigate to the test app folder
 
