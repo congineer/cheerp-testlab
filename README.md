@@ -1,13 +1,13 @@
 <!-- markdownlint-disable MD041 -->
 
-![alt text](cheerp_testlab_logo.png "Cheerp Testlab")
+![Cheerp Testlab logo](./cheerp_testlab_logo.png?raw=true "Cheerp Testlab")
 
 ---
 &nbsp;
 
-![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-FF0000?style=for-the-badge&logo=youtube&logoColor=FF0000)
+![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)
 [![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge)](https://opensource.org/licenses/mit)
-[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logocolor=EF9421)](https://creativecommons.org/licenses/by/4.0/)
+[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logocolor=ef9421)](https://creativecommons.org/licenses/by/4.0/)
 
 [![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/master)
 [![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
