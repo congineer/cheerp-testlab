@@ -4,7 +4,8 @@
 <!-- ![Cheerp Testlab logo](./cheerp_testlab_logo.png "Cheerp Testlab") -->
 
 <div align="center">
-  <a href="https://github.com/congineer/cheerp-testlab" target="_blank">
+  <!-- <a href="https://github.com/congineer/cheerp-testlab" target="_blank"> -->
+  <a href="https://github.com/congineer/cheerp-testlab" onclick="return ! window.open(this.href);">
     <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   </a>
 </div>
