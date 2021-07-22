@@ -4,15 +4,17 @@
 <!-- ![Cheerp Testlab logo](./cheerp_testlab_logo.png "Cheerp Testlab") -->
 
 <div align="center">
-  <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
+  <a href="https://github.com/congineer/cheerp-testlab" target="_blank">
+    <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
+  </a>
 </div>
 
 ---
 &nbsp;
 
-[![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)]()
-[![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge)](https://opensource.org/licenses/mit)
-[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logoColor=ef9421)](https://creativecommons.org/licenses/by/4.0/)
+[![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)](https://www.youtube.com/channel/UCT4TzDSHnq2e0p5YlF37NeQ)
+[![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge&logo=Open+Source+Initiative&logoColor=white)](https://opensource.org/licenses/mit)
+[![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
 
 [![Prerequisite mandatory: Node.js](https://img.shields.io/badge/prerequisite:%20mandatory-node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=blue)](https://nodejs.org/en/download/package-manager/)
 [![Prerequisite optional: Cheerp compiler](https://img.shields.io/badge/prerequisite:%20optional-cheerp-4fdbd1?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://leaningtech.com/cheerp/)
