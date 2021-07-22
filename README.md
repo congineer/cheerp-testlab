@@ -7,7 +7,7 @@
   <a href="https://github.com/congineer/cheerp-testlab">
     <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   </a>
-  <hr><p></p>
+  <p></p>
   <a href="https://www.youtube.com/channel/UCT4TzDSHnq2e0p5YlF37NeQ">
     <img alt="YouTube channel: congineer" src="https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000">
   </a><span>&nbsp;</span>
