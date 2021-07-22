@@ -4,11 +4,9 @@
 <!-- ![Cheerp Testlab logo](./cheerp_testlab_logo.png "Cheerp Testlab") -->
 
 <div align="center">
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <img height=100 style="max-width:100%;" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
-  </div>
+  <img width="100%" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   <!-- Comment out this L9 </div> and uncomment the below L27 </div> if you want to center all badges -->
-</div>
+<!-- </div> -->
 
 ---
 &nbsp;
@@ -16,6 +14,8 @@
 [![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)]()
 [![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge)](https://opensource.org/licenses/mit)
 [![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logocolor=ef9421)](https://creativecommons.org/licenses/by/4.0/)
+
+
 
 [![Git branch stability: master](https://img.shields.io/badge/branch%20stability:%20master-stable-greene?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/master)
 [![Git branch stability: jsonparse](https://img.shields.io/badge/branch%20stability:%20jsonparse-experimental-ff6700?style=for-the-badge&logo=github&logocolor=333)](https://github.com/congineer/cheerp-testlab/tree/jsonparse)
@@ -26,7 +26,7 @@
 
 ---
 <!-- Uncomment the below L27 </div> instead of the above L9 </div> if you want to center all badges -->
-<!-- </div> -->
+</div>
 
 # CHEERP WEBASSEMBLY TESTING APP
 
@@ -41,8 +41,8 @@ This is a lightweight [Snowpack](https://www.snowpack.dev/) application for rapi
 ## Licensing
 
 * Code (scripts and compiled code) under [MIT](LICENSE) license.
-* Cheerp brand assets (icon, logomark and logotype) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by Leaning Technologies Ltd.
-* Brand assets (icons, logomark and logotype) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
+* Cheerp brand assets (icons, logos) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by Leaning Technologies Ltd.
+* Brand assets (icons, logos) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
 * Media assets (video, audio, graphics, animations) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Copyright by CONGINEER Ltd.
 
 ---
