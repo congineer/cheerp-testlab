@@ -7,9 +7,7 @@
   <a href="https://github.com/congineer/cheerp-testlab">
     <img height="100" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   </a>
-  <br><p></p>
-  <hr>
-  <p></p>
+  <hr><p></p>
   <a href="https://www.youtube.com/channel/UCT4TzDSHnq2e0p5YlF37NeQ">
     <img alt="YouTube channel: congineer" src="https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000">
   </a><span>&nbsp;</span>
@@ -37,11 +35,8 @@
   <a href="https://alm.congineer.com/plugins/git/testlab/cheerp?a=tree&hb=runxgems">
     <img alt="Git branch stability: runxgems" src="https://img.shields.io/badge/branch%20stability:%20runxgems-stable-greene?style=for-the-badge&logo=git&logoColor=f34f28">
   </a><span>&nbsp;</span>
-  <br><p></p>
-  <hr>
+  <p></p><hr>
 </div>
-
-<!-- --- -->
 
 # CHEERP WEBASSEMBLY TESTING APP
 
