@@ -1,11 +1,11 @@
 <!-- markdownlint-disable MD041 -->
 
-![Cheerp Testlab logo](./cheerp_testlab_logo.png?raw=true "Cheerp Testlab")
+![Cheerp Testlab logo](https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png "Cheerp Testlab")
 
 ---
 &nbsp;
 
-![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)
+[![YouTube channel: congineer](https://img.shields.io/badge/screencast%20channel-congineer-ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000)]()
 [![Code license: MIT](https://img.shields.io/badge/code%20license-mit-greene.svg?style=for-the-badge)](https://opensource.org/licenses/mit)
 [![Assets license: CC-BY](https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logocolor=ef9421)](https://creativecommons.org/licenses/by/4.0/)
 
