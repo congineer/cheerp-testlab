@@ -16,7 +16,7 @@
   <a href="https://creativecommons.org/licenses/by/4.0/">
     <img alt="Assets license: CC-BY" src="https://img.shields.io/badge/assets%20license-by%204.0-greene.svg?style=for-the-badge&logo=creative-commons&logoColor=white">
   </a>
-  <br><p></p>
+  <br>
   <a href="https://nodejs.org/en/download/package-manager/">
     <img alt="Prerequisite mandatory: Node.js" src="https://img.shields.io/badge/prerequisite:%20mandatory-node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=blue">
   </a><span>&nbsp;</span>
