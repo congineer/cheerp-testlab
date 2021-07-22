@@ -4,7 +4,9 @@
 <!-- ![Cheerp Testlab logo](./cheerp_testlab_logo.png "Cheerp Testlab") -->
 
 <div align="center">
-  <img style="max-width:100%;" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <img style="max-width:100%;" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
+  </div>
   <!-- Comment out this L9 </div> and uncomment the below L27 </div> if you want to center all badges -->
 </div>
 
