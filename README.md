@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD041 -->
+
 ![alt text](cheerp_testlab_logo.png "Cheerp Testlab")
 
 ---
