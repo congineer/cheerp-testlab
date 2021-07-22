@@ -5,7 +5,7 @@
 
 <div align="center">
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img width="100%" style="max-width:100%;" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
+    <img height=100 style="max-width:100%;" src="https://raw.githubusercontent.com/congineer/cheerp-testlab/master/cheerp_testlab_logo.png" alt="Cheerp Testlab">
   </div>
   <!-- Comment out this L9 </div> and uncomment the below L27 </div> if you want to center all badges -->
 </div>
