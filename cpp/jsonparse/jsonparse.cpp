@@ -22,12 +22,13 @@
 
 using json = nlohmann::json;
 
-// using namespace client;
 namespace [[cheerp::genericjs]] client
 {
-  const String *readRecordFromDatabase(const String docId);
-  void writeRecordToDatabase(const String docId, const String docStr);
+   const client::String *readRecordFromDatabase(const client::String &docId);
+   void writeRecordToDatabase(const client::String &docId, const client::String &docStr);
 }
+
+using namespace client;
 
 // Generate a test button
 [[cheerp::genericjs]] void addButton(const std::string &text, client::EventListener *callback)
@@ -99,7 +100,7 @@ namespace [[cheerp::genericjs]] client
   client::String *docId = new client::String(idKey.c_str());
   client::String *docStr = new client::String(json_str.c_str());
   // client::console.log("wasm: writing/upserting a document with id: ", *docId);
-  writeRecordToDatabase(*docId, *docStr);
+  client::writeRecordToDatabase(*docId, *docStr);
   // delete[] docId;
   // delete[] docStr;
 }
@@ -170,8 +171,8 @@ namespace [[cheerp::genericjs]] client
         std::string outjstring = jotest.dump(); // Alternative
         // delete [] jotest;
 
-        // const char *snippet = outjstring->substr(0, 80).c_str();
-        const char *snippet = outjstring.substr(0, 80).c_str();
+        std::string snippetString = outjstring.substr(0, 80);
+        const char *snippet = snippetString.c_str();
         CHEERP_SAFE_INLINE(
             void, (const char *s), { client::console.log(s); }, snippet);
         // Saving the dumped document back to web app database
@@ -313,8 +314,8 @@ namespace [[cheerp::genericjs]] client
       std::string outjstring = jotest.dump(); // Alternative
       // delete [] jotest;
 
-      // const char *snippet = outjstring->substr(0, 80).c_str();
-      const char *snippet = outjstring.substr(0, 80).c_str();
+      std::string snippetString = outjstring.substr(0, 80);
+      const char *snippet = snippetString.c_str();
       CHEERP_SAFE_INLINE(
           void, (const char *s), { client::console.log(s); }, snippet);
       // Saving the dumped document back to web app database
