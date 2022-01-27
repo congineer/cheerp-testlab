@@ -43,18 +43,34 @@ using namespace client;
 
 // ********************************************************************************
 // Utility: convert from C++ std::string to JavaScript client::String
-[[cheerp::genericjs]] const client::String *strCPPtoJS(const std::string &src)
+[[cheerp::genericjs]] client::String *strCPPtoJS(const std::string &src)
 {
-  client::String *res = new client::String(src.c_str());
-  return res;
+	//Take a view (as Uint8Array) of the memory representing the std::string (encoded in UTF8)
+	client::Uint8Array* bufferView = cheerp::MakeTypedArray<client::Uint8Array>(src.c_str(), src.length());
+
+	//Create a client::String with the equivalent content
+	return (new client::TextDecoder())->decode(bufferView);
 }
 
 // Utility: convert from JavaScript client::String to C++ std::string
-[[cheerp::genericjs]] const std::string *strJStoCPP(const client::String *src)
+[[cheerp::genericjs]] const std::string strJStoCPP(const client::String *src)
 {
-  const std::string *res = new std::string(*src);
-  // auto res = std::make_shared<const std::string>(std::string(*src));
-  return res;
+	//Encodes the UTF8-encoded content of client::String into Uint8Array
+	client::Uint8Array* view = (new client::TextEncoder())->encode(src);
+
+	//Fills res with the content of the Array
+	std::string res;
+
+	int i=0;
+	char c = view->operator[](i);
+	while (c)
+	{
+		res.push_back(c);
+		i++;
+		c = view->operator[](i);
+	}
+
+	return res;
 }
 
 // Global pointer to C++ JSON string
@@ -62,9 +78,9 @@ using namespace client;
 // static const std::string *p_json_str = nullptr;
 
 // Utility: reading a document from web app database
-[[cheerp::genericjs]] auto readFromDatabase(const std::string &idKey) -> const std::string *
+[[cheerp::genericjs]] auto readFromDatabase(const std::string &idKey) -> const std::string
 {
-  const client::String *docId = new client::String(idKey.c_str());
+  const client::String *docId = strCPPtoJS(idKey);
   // client::console.log("wasm: reading a document with id: ", *docId);
   const client::String *jsString = client::readRecordFromDatabase(*docId);
   // client::String jsString = client::readRecordFromDatabase(*docId);
@@ -81,7 +97,7 @@ using namespace client;
   //   delete p_json_str;
   // }
   // Use global pointer above to keep it NOT in current function stack
-  const std::string *p_json_str = new std::string((std::string)*jsString);
+  return strJStoCPP(jsString);
   // CASE (B) shared pointer
   // auto p_json_str = std::make_shared<const std::string>(std::string((std::string)*jsString));
 
@@ -91,14 +107,13 @@ using namespace client;
   // CASE (A) simple pointer
   // return p_json_str;
   // CASE (B) shared pointer
-  return p_json_str;
 }
 
 // Utility: saving a document to web app database
 [[cheerp::genericjs]] auto saveToDatabase(const std::string &idKey, const std::string &json_str) -> void
 {
-  client::String *docId = new client::String(idKey.c_str());
-  client::String *docStr = new client::String(json_str.c_str());
+  client::String *docId = strCPPtoJS(idKey);
+  client::String *docStr = strCPPtoJS(json_str);
   // client::console.log("wasm: writing/upserting a document with id: ", *docId);
   client::writeRecordToDatabase(*docId, *docStr);
   // delete[] docId;
@@ -144,10 +159,10 @@ using namespace client;
           void, (const char *c, const char *s), { client::console.log(c, s); },
           "++++++++++++++++++++++++++++++++++++++\nProcessing test from web app database:", argw[i].c_str());
       // Reading from web app database
-      const std::string *jsstring = readFromDatabase(argw[i]);
+      const std::string jsstring = readFromDatabase(argw[i]);
       // parsing the input document string
       // json *jotest = new json(json::parse(*jsstring));
-      json jotest = json::parse(*jsstring, nullptr, false); // Alternative (in stack)
+      json jotest = json::parse(jsstring, nullptr, false); // Alternative (in stack)
 
       if (jotest.is_discarded())
       { // Check if not parsed
@@ -286,11 +301,11 @@ using namespace client;
         void, (const char *c, const char *s), { client::console.log(c, s); },
         "++++++++++++++++++++++++++++++++++++++\nProcessing test from web app database:", docId.c_str());
     // Reading from web app database
-    const std::string *jsstring = readFromDatabase(docId);
+    const std::string jsstring = readFromDatabase(docId);
 
     // parsing input document string
     //    json *jotest = new json(json::parse(*jsstring));
-    json jotest = json::parse(*jsstring, nullptr, false); // exceptions suppressed
+    json jotest = json::parse(jsstring, nullptr, false); // exceptions suppressed
     // json jotest = json::parse(*jsstring);    // Alternative (in stack)
 
     if (jotest.is_discarded())
@@ -336,20 +351,20 @@ using namespace client;
 [[cheerp::genericjs]] auto runJsonParseTest(const client::String docId)
 {
   // client::console.log("--> runJsonParseTest", docId);
-  const std::string *docIdCpp = strJStoCPP(&docId);
+  const std::string docIdCpp = strJStoCPP(&docId);
   const client::String *jjsstr;
 
-  if (*docIdCpp != "runAllTests")
+  if (docIdCpp != "runAllTests")
   {
-    jjsstr = strCPPtoJS(runTestId(*docIdCpp));
+    jjsstr = strCPPtoJS(runTestId(docIdCpp));
   }
   client::console.log("---------------------------- single test done: ", *jjsstr);
 }
 
 [[cheerp::genericjs]] void createButton(const client::String &docId)
 {
-  const std::string *docIdCpp = strJStoCPP(&docId);
-  addButton(*docIdCpp, cheerp::Callback([&docId]()
+  const std::string docIdCpp = strJStoCPP(&docId);
+  addButton(docIdCpp, cheerp::Callback([&docId]()
                                         { runJsonParseTest(docId); }));
 }
 
@@ -366,8 +381,8 @@ using namespace client;
   for (int i = 0; i < argC; i++)
   {
     // client::console.log(" Test #", i, ", Id: ", argS[i]);
-    const std::string *argsi = strJStoCPP(argS[i]);
-    argw.push_back(*argsi);
+    const std::string argsi = strJStoCPP(argS[i]);
+    argw.push_back(argsi);
   }
   argw.push_back("inCodeJSONfromNlohmann"); // button for in-code test example
 
@@ -398,9 +413,9 @@ using namespace client;
   for (int i = 0; i < argC; i++)
   {
     // client::console.log(" Test #", i, ", Id: ", argS[i]);
-    const std::string *argsi = strJStoCPP(argS[i]);
-    createButton(argsi->c_str());
-    argW->push_back(*argsi);
+    const std::string argsi = strJStoCPP(argS[i]);
+    createButton(argsi.c_str());
+    argW->push_back(argsi);
   }
 
   argW->push_back("inCodeJSONfromNlohmann"); // button for in-code test example
